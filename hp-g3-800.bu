@@ -1,5 +1,16 @@
 variant: fcos
 version: 1.6.0
+storage:
+  files:
+    - path: /etc/hostname
+      mode: 0644
+      overwrite: true
+      contents:
+        inline: bart
+    - path: /etc/vconsole.conf
+      mode: 0644
+      contents:
+        inline: KEYMAP=uk
 passwd:
   users:
     - name: david

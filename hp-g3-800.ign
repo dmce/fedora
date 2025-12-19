@@ -14,5 +14,26 @@
         ]
       }
     ]
+  },
+  "storage": {
+    "files": [
+      {
+        "overwrite": true,
+        "path": "/etc/hostname",
+        "contents": {
+          "compression": "",
+          "source": "data:,bart"
+        },
+        "mode": 420
+      },
+      {
+        "path": "/etc/vconsole.conf",
+        "contents": {
+          "compression": "",
+          "source": "data:,KEYMAP%3Duk"
+        },
+        "mode": 420
+      }
+    ]
   }
 }
