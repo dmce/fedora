@@ -1,0 +1,19 @@
+{
+  "ignition": {
+    "version": "3.5.0"
+  },
+  "passwd": {
+    "users": [
+      {
+        "groups": [
+          "wheel"
+        ],
+        "name": "david",
+        "noCreateHome": true,
+        "sshAuthorizedKeys": [
+          "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOjf0lxJtJaED4QjyMtLWQz8UCsm1j0cBgQPLIe0jXqY dmcelroy@gmail.com"
+        ]
+      }
+    ]
+  }
+}
